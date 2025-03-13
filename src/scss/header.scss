@@ -37,16 +37,12 @@
   letter-spacing: 0.02em;
   font-size: 16px;
   color: #fff;
-
   border-radius: 10px;
   border: 1px solid #6a59ae;
   padding-top: 6px;
   padding-right: 13px;
   padding-bottom: 6px;
   padding-left: 13px;
-  @include media(desktop) {
-    justify-content: flex-end;
-  }
 }
 
 .nav-link:hover,
