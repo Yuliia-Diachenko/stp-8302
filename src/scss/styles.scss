@@ -4,7 +4,6 @@
 @import './vite-promo.scss';
 @import './privacy-policy.scss';
 @import './terms&conditions.scss';
-
 @import './footer.scss';
 
 :root {
@@ -20,6 +19,7 @@
       rgba(46, 47, 66, 0.7)
     ),
     url(../img/background.jpg);
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right, center;
