@@ -14,12 +14,10 @@
   font-weight: 400;
 
   color: #fff;
-  background: #2a2a2a;
+  background: linear-gradient(rgba(68, 53, 127, 0.5), rgba(255, 255, 255, 0));
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-position:
-    top right,
-    center;
+  background-position: top right, center;
   background-size: cover;
 
   font-synthesis: none;
@@ -91,3 +89,9 @@ a {
     line-height: $footer-line-height-mobile;
   }
 }
+// .main-container {
+//   width: 280px;
+//   @include media(desktop) {
+//     width: 1126px;
+//   }
+// }
