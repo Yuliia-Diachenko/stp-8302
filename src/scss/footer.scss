@@ -6,7 +6,7 @@
   padding: 20px 0;
   background-color: #44357f;
   width: 100%;
-  max-width: 320px;
+  min-width: 320px;
   margin: 0 auto;
   @include media(desktop) {
     gap: 10px;
