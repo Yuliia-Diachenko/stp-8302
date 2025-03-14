@@ -19,10 +19,9 @@
       rgba(46, 47, 66, 0.7)
     ),
     url(../img/background.jpg);
-
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: top right, center;
+  background-size: cover;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,11 +31,6 @@
 }
 // Reusable classes
 html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
 h3 {
   font-family: $font-title;
   font-weight: 600;
