@@ -1,6 +1,9 @@
+@import './common/mixins';
 @import './header.scss';
 @import './hero.scss';
 @import './vite-promo.scss';
+@import './privacy-policy.scss';
+@import './terms&conditions.scss';
 
 @import './footer.scss';
 
@@ -24,4 +27,67 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+// Reusable classes
+h3 {
+  font-family: $font-title;
+  font-weight: 600;
+  font-size: $title-font-size-desktop;
+  line-height: $title-line-height-desktop;
+  letter-spacing: 0%;
+
+  @media (max-width: 768px) {
+    font-size: $title-font-size-mobile;
+    line-height: $title-line-height-mobile;
+  }
+}
+
+p {
+  font-family: $font-main;
+  font-weight: 300;
+  font-size: $text-font-size-desktop;
+  line-height: $text-line-height-desktop;
+  letter-spacing: 0%;
+
+  @media (max-width: 768px) {
+    font-size: $text-font-size-mobile;
+    line-height: $text-line-height-mobile;
+  }
+}
+ul {
+  font-family: $font-main;
+  font-weight: 300;
+  font-size: $text-font-size-desktop;
+  line-height: $text-line-height-desktop;
+  letter-spacing: 0%;
+
+  @media (max-width: 768px) {
+    font-size: $text-font-size-mobile;
+    line-height: $text-line-height-mobile;
+  }
+}
+a {
+  font-family: $font-main;
+  font-weight: 300;
+  font-size: $text-font-size-desktop;
+  line-height: $text-line-height-desktop;
+  letter-spacing: 0%;
+
+  @media (max-width: 768px) {
+    font-size: $text-font-size-mobile;
+    line-height: $text-line-height-mobile;
+  }
+}
+.footer {
+  font-family: $font-footer;
+  font-weight: 500;
+  font-size: $footer-font-size-desktop;
+  line-height: $footer-line-height-desktop;
+  letter-spacing: 0%;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: $footer-font-size-mobile;
+    line-height: $footer-line-height-mobile;
+  }
 }

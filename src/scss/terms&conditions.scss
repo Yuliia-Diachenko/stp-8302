@@ -1,0 +1,55 @@
+.header-privacy {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 16px;
+
+  @include media(desktop) {
+    max-width: 1200px;
+    padding-left: 60px;
+    height: 100%;
+    gap: 40px;
+    margin: 20px;
+    font-size: 22px;
+  }
+  @include media(to-mobile) {
+    max-width: 1200px;
+    height: 100%;
+    gap: 40px;
+    margin: 60px 0;
+  }
+}
+.privacy-container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @include media(desktop) {
+    max-width: 1200px;
+    padding: 60px;
+    height: 100%;
+    gap: 40px;
+    margin: 20px;
+  }
+  @include media(to-mobile) {
+    max-width: 1080px;
+    height: 100%;
+    gap: 40px;
+    margin: 60px;
+  }
+}
+.p-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.privacy-list {
+  list-style-type: disc;
+  padding-left: 40px;
+  padding-top: 0;
+}
