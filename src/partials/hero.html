@@ -1,1 +1,36 @@
-<section id="hero"></section>
+<section id="hero" class="hero">
+  <div class="hero-image">
+    <picture>
+      <source
+        srcset="./img/hero/beacon-d.png 1x, ./img/hero/beacon-d@2x.png 2x"
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="./img/hero/beacon.png 1x, ./img/hero/beacon@2x.png 2x"
+        media="(min-width: 320px)"
+      />
+      <img src="./img/hero/beacon-d.png" alt="Hero image" />
+    </picture>
+  </div>
+  <div class="right">
+    <div class="hero-text">
+      <h1 class="hero-title">Peace Match Triple Tile</h1>
+      <span class="hero-subtitle">Relax, Match, and Unwind!</span>
+    </div>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.insbraingames.peacetile.gp&hl=en&gl=us"
+      target="_blank"
+      class="google-play-link"
+      ><img
+        src="./img/hero/google-play.png"
+        srcset="./img/hero/google-play@2x.png 2x"
+        alt="google-play"
+        class="google-play-logo"
+      />
+      <div class="google-play-text">
+        <p>GET IT ON</p>
+        <span>Google Play</span>
+      </div>
+    </a>
+  </div>
+</section>
