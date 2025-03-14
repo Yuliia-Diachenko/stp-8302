@@ -1,0 +1,104 @@
+.hero {
+  max-width: 320px;
+  margin: 0 auto;
+  @include media(desktop) {
+    max-width: 1200px;
+  }
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  margin: 20px auto 26px auto;
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 60px 38px 60px 36px;
+    gap: 60px;
+  }
+}
+.hero-image {
+  width: 229px;
+  height: 229px;
+  @include media(desktop) {
+    min-width: 437px;
+    height: 437px;
+  }
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  @include media(desktop) {
+    align-items: start;
+    gap: 37px;
+  }
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @include media(desktop) {
+    gap: 37px;
+  }
+}
+.hero-title {
+  font-family: $font-title;
+  font-weight: 600;
+  @include font(40, 48);
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  @include media(desktop) {
+    @include font(96, 102);
+    text-align: start;
+  }
+}
+.hero-subtitle {
+  font-family: $font-main;
+  font-weight: 500;
+  @include font(16, 20);
+  text-align: center;
+  color: #fff;
+  @include media(desktop) {
+    @include font(42, 48);
+    text-align: start;
+  }
+}
+.google-play-link {
+  border-radius: 10px;
+  padding: 11px 10px;
+  width: 266px;
+  height: 68px;
+  background: linear-gradient(90deg, #ffde68 39.5%, #99853e 100%);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  & p {
+    font-family: $font-main;
+    font-weight: 500;
+    @include font(16, 20);
+    color: #000;
+  }
+  & span {
+    font-family: $font-main;
+    font-weight: 700;
+    @include font(16, 20);
+    color: #000;
+  }
+  @include media(desktop) {
+    height: 74px;
+  }
+}
+.google-play-logo {
+  width: 46px;
+  height: 50px;
+}
+.google-play-text {
+  display: flex;
+  gap: 5px;
+}
