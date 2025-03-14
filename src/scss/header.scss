@@ -9,13 +9,24 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  display: flex;
+}
+.logo-header {
+  width: 40px;
+  @include media(desktop) {
+    width: 60px;
+  }
 }
 .nav {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  align-items: center;
   justify-content: flex-end;
   padding-right: 70px;
+  @include media(to-desktop) {
+    display: none;
+  }
 }
 .nav-list {
   display: flex;
@@ -48,4 +59,18 @@
 .nav-link:hover,
 .nav-link:focus {
   color: $_header_accent_color;
+}
+
+.hamburger-menu {
+  display: none;
+
+  @include media(to-desktop) {
+    display: block;
+  }
+}
+.heder-nav {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
