@@ -31,6 +31,12 @@
   -webkit-text-size-adjust: 100%;
 }
 // Reusable classes
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 h3 {
   font-family: $font-title;
   font-weight: 600;
@@ -79,6 +85,10 @@ a {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
+}
+a:hover,
+a:focus {
+  color: $_header_accent_color;
 }
 .footer {
   font-family: $font-footer;
