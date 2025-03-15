@@ -8,6 +8,7 @@
 @import './cookies.scss';
 @import './footer.scss';
 @import './about.scss';
+@import './features.scss';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,9 +24,7 @@
     ),
     url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-position:
-    top right,
-    center;
+  background-position: top right, center;
   background-size: cover;
 
   font-synthesis: none;
