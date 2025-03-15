@@ -1,6 +1,7 @@
 @import './common/mixins';
 @import './header.scss';
 @import './hero.scss';
+@import './pop-up.scss';
 @import './vite-promo.scss';
 @import './privacy-policy.scss';
 @import './terms&conditions.scss';
@@ -20,7 +21,9 @@
     ),
     url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-position: top right, center;
+  background-position:
+    top right,
+    center;
   background-size: cover;
 
   font-synthesis: none;
