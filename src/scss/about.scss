@@ -1,0 +1,53 @@
+.image-about {
+  width: 128px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  @include media(desktop) {
+    width: 396px;
+  }
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 320px;
+  margin: 40px auto 26px auto;
+  @include media(desktop) {
+    width: 1126px;
+    margin: 210px auto 158px auto;
+  }
+}
+.main-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  @include media(desktop) {
+    gap: 24px;
+  }
+}
+.about-text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0 20px;
+  text-shadow: -0.5px -0.5px 0 #303030, 0.5px -0.5px 0 #303030,
+    -0.5px 0.5px 0 #303030, 0.5px 0.5px 0 #303030;
+  @include media(desktop) {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+.about-title {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
+    1px 1px 0 #303030;
+  @include media(desktop) {
+    text-align: left;
+    margin: 90px 321px 0 61px;
+    font-size: 66px;
+  }
+}
