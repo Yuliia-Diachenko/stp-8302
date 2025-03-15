@@ -74,7 +74,7 @@
 
 .hamburger-menu {
   display: none;
-  // margin-right: 24px;
+  margin-right: 24px;
   @include media(to-desktop) {
     display: block;
     border: none;
