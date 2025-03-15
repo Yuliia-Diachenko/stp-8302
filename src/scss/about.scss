@@ -1,0 +1,28 @@
+.image-about {
+  width: 128px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -99999;
+  @include media(desktop) {
+    width: 396px;
+  }
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 320px;
+  margin: 20px auto 26px auto;
+  @include media(desktop) {
+    width: 1126px;
+    margin: 60px auto 60px auto;
+  }
+}
+.main-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  @include media(desktop) {
+    gap: 24px;
+  }
+}
