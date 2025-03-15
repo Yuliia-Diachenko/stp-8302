@@ -6,10 +6,10 @@ export const initCookiePolicy = () => {
 
   const hasCookieConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
 
-  if (!hasCookieConsent) {
+  const showPopup = () => {
     cookiePolicy.classList.add('show');
     document.body.classList.add('popup-active');
-  }
+  };
 
   const hidePopup = () => {
     cookiePolicy.classList.remove('show');
@@ -24,4 +24,10 @@ export const initCookiePolicy = () => {
   rejectButton.addEventListener('click', () => {
     hidePopup();
   });
+
+  if (!hasCookieConsent) {
+    showPopup();
+  }
 };
+
+document.addEventListener('DOMContentLoaded', initCookiePolicy);
