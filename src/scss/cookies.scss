@@ -1,0 +1,75 @@
+.cookies-policy {
+  padding: 10px 25px 35px 25px;
+  display: flex;
+  flex-direction: column;
+
+  & p {
+    font-family: $font-main;
+    font-weight: 300;
+    @include font(16, 20);
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  @include media(desktop) {
+    padding: 20px 60px 91px 60px;
+    & p {
+      @include font(22, 28);
+    }
+  }
+}
+.cookies-title {
+  font-family: $font-title;
+  font-weight: 600;
+  @include font(32, 38);
+  color: #fff;
+  padding-bottom: 15px;
+  @include media(desktop) {
+    @include font(66, 72);
+    padding-bottom: 30px;
+  }
+}
+
+.cookies-subtitle {
+  font-family: $font-title;
+  font-weight: 600;
+  @include font(28, 30);
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+  @include media(desktop) {
+    @include font(46, 52);
+    padding-bottom: 20px;
+    text-align: left;
+  }
+}
+
+.cookies-list {
+  padding-bottom: 20px;
+  & li {
+    list-style-type: disc;
+    margin-left: 20px;
+    & p {
+      margin: 0;
+    }
+  }
+  & span {
+    font-weight: 700;
+  }
+  @include media(desktop) {
+    padding-bottom: 40px;
+  }
+}
+
+.cookies-links {
+  padding-bottom: 15px;
+  & li {
+    list-style-type: disc;
+    margin-left: 20px;
+    & a {
+      word-wrap: break-word;
+    }
+  }
+  @include media(desktop) {
+    padding-bottom: 30px;
+  }
+}
