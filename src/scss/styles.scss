@@ -9,9 +9,11 @@
 @import './footer.scss';
 @import './about.scss';
 @import './features.scss';
+<<<<<<<<< Temporary merge branch 1
 @import './faq.scss';
+=========
 @import './reviews.scss';
-@import './how-to-play.scss';
+>>>>>>>>> Temporary merge branch 2
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -47,7 +49,7 @@ h3 {
   line-height: $title-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $title-font-size-mobile;
     line-height: $title-line-height-mobile;
   }
@@ -60,7 +62,7 @@ p {
   line-height: $text-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
@@ -72,7 +74,7 @@ ul {
   line-height: $text-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
@@ -84,7 +86,7 @@ a {
   line-height: $text-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
@@ -101,7 +103,7 @@ a:focus {
   letter-spacing: 0%;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $footer-font-size-mobile;
     line-height: $footer-line-height-mobile;
   }
