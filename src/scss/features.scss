@@ -1,0 +1,164 @@
+.features {
+  margin: 0 auto;
+  max-width: 320px;
+  @include media(desktop) {
+    max-width: 1200px;
+  }
+}
+
+.feature-container {
+  padding: 30px 18px;
+  @include media(desktop) {
+    padding: 60px 20px;
+  }
+}
+
+.features-title {
+  font-family: $font-title;
+  font-weight: 600;
+  @include font(32, 38);
+  text-align: center;
+  color: #fffbfb;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    @include font(66, 72);
+    margin-bottom: 60px;
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #b9a7fe 0%, #6d6d6d 100%),
+    rgba(0, 0, 0, 0.2);
+  width: 205px;
+  height: 112px;
+  position: relative;
+  text-align: center;
+
+  @include media(desktop) {
+    width: 469px;
+    height: 127px;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('../img/features/arrow.png');
+    @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url('../img/features/arrow@2x.png');
+    }
+  }
+
+  &:nth-child(odd)::after {
+    bottom: -60px;
+    @include media(desktop) {
+      background-image: url('../img/features/arrow-d@.png');
+
+      @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
+        background-image: url('../img/features/arrow-d@2x.png');
+      }
+
+      left: auto;
+      right: -80px;
+      bottom: 20px;
+    }
+  }
+
+  &:nth-child(even)::after {
+    bottom: -70px;
+    transform: translateX(-50%) rotate(115deg);
+    @include media(desktop) {
+      background-image: url('../img/features/arrow-d.png');
+
+      @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
+        background-image: url('../img/features/arrow-d@2x.png');
+      }
+
+      left: -80px;
+      bottom: 20px;
+    }
+  }
+  &:nth-last-child(1)::after {
+    display: none;
+  }
+
+  &:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  &:nth-child(even) {
+    align-self: flex-end;
+  }
+}
+.feature-text {
+  font-family: $font-main;
+  font-weight: 500;
+  @include font(16, 20);
+  text-align: center;
+  color: #fff;
+
+  @include media(desktop) {
+    @include font(22, 38);
+  }
+}
+
+.feature-matching {
+  // height: 143px;
+  margin-bottom: 62px;
+  @include media(desktop) {
+    height: 116px;
+  }
+}
+
+.feature-relaxing {
+  margin-bottom: 87px;
+  @include media(desktop) {
+    height: 116px;
+  }
+}
+.feature-challenges {
+  margin-bottom: 57px;
+  @include media(desktop) {
+  }
+}
+
+.feature-rewards {
+  margin-bottom: 94px;
+  @include media(desktop) {
+  }
+}
+
+.feature-boosters {
+  margin-bottom: 63px;
+  @include media(desktop) {
+  }
+}
+
+.feature-themes {
+  margin-bottom: 91px;
+  @include media(desktop) {
+  }
+}
+
+.feature-leaderboard {
+  @include media(desktop) {
+  }
+}
