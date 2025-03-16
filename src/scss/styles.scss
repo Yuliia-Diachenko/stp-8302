@@ -9,6 +9,7 @@
 @import './footer.scss';
 @import './about.scss';
 @import './features.scss';
+@import './advantages.scss';
 
 @import './reviews.scss';
 
@@ -46,7 +47,7 @@ h3 {
   line-height: $title-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $title-font-size-mobile;
     line-height: $title-line-height-mobile;
   }
@@ -59,7 +60,7 @@ p {
   line-height: $text-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
@@ -71,7 +72,7 @@ ul {
   line-height: $text-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
@@ -83,7 +84,7 @@ a {
   line-height: $text-line-height-desktop;
   letter-spacing: 0%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $text-font-size-mobile;
     line-height: $text-line-height-mobile;
   }
@@ -100,7 +101,7 @@ a:focus {
   letter-spacing: 0%;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     font-size: $footer-font-size-mobile;
     line-height: $footer-line-height-mobile;
   }
