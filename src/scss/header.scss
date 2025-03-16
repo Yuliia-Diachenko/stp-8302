@@ -9,7 +9,7 @@
   margin-bottom: 20px;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 99999999999999;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,6 +75,7 @@
 .hamburger-menu {
   display: none;
   margin-right: 24px;
+
   @include media(to-desktop) {
     display: block;
     border: none;
@@ -99,6 +100,7 @@
 
 .mobile-wraper {
   position: fixed;
+  z-index: 1000;
   top: 120px;
   right: -100%;
   width: 100%;
