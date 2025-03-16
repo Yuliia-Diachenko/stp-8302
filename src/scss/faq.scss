@@ -1,0 +1,108 @@
+.section-faq {
+  @include media(desktop) {
+    padding-top: 1px;
+  }
+}
+.faq-container {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  border: 5px solid #303030;
+  margin-top: 60px;
+  background-image: url('../img/faq/background-faq.jpg');
+  @include media(desktop) {
+    width: 1200px;
+    margin-top: 120px;
+  }
+}
+.title-faq {
+  @include media(desktop) {
+    margin-bottom: 40px;
+  }
+}
+.accordion-container {
+  width: 310px;
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  @include media(desktop) {
+    padding-top: 60px;
+    width: 1126px;
+    padding-bottom: 92px;
+  }
+}
+.ac {
+  width: 310px;
+  border-radius: 30px;
+  border: 1px solid #fff !important;
+  background-color: #f5c69f !important;
+  @include media(desktop) {
+    width: 960px;
+  }
+}
+
+.ac-trigger {
+  padding: 28px 10px !important;
+  font-family: Shantell Sans !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 26px !important;
+  letter-spacing: 1.112 !important;
+  vertical-align: bottom;
+  @include media(desktop) {
+    font-size: 36px !important;
+    line-height: 38px !important;
+    text-align: center;
+    vertical-align: bottom;
+  }
+}
+.ac .ac-trigger:focus {
+  color: #9f700a !important;
+}
+.ac .ac-trigger::after {
+  content: url('../img/faq/eclipse_black.png') !important;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 27px;
+  right: 40px !important;
+  transform: translateY(-50%);
+  @include media(desktop) {
+    top: 27px;
+    right: 40px !important;
+  }
+}
+.ac.is-active > .ac-header .ac-trigger::after {
+  content: url('../img/faq/eclipse.png') !important;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 27px;
+  right: 27px !important;
+  transform: translateY(-50%);
+}
+.ac-text {
+  font-family: Comme !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+  padding-bottom: 28px !important;
+}
+.bold-text {
+  font-family: Comme !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+}
