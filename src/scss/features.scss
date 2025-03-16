@@ -6,7 +6,6 @@
   text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
     1px 1px 0 #303030;
   @include media(desktop) {
-    text-align: left;
     margin: 70px 61px 0 61px;
     font-size: 66px;
   }
@@ -88,5 +87,6 @@
   width: 260px;
   @include media(desktop) {
     width: 700px;
+    margin-right: 0;
   }
 }

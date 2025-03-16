@@ -76,10 +76,6 @@
   top: 27px;
   right: 40px !important;
   transform: translateY(-50%);
-  @include media(desktop) {
-    top: 27px;
-    right: 40px !important;
-  }
 }
 .ac.is-active > .ac-header .ac-trigger::after {
   content: url('../img/faq/eclipse.png') !important;
