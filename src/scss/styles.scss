@@ -9,11 +9,10 @@
 @import './footer.scss';
 @import './about.scss';
 @import './features.scss';
-<<<<<<<<< Temporary merge branch 1
 @import './faq.scss';
-=========
 @import './reviews.scss';
->>>>>>>>> Temporary merge branch 2
+@import './how-to-play.scss';
+@import './advantages.scss';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -29,9 +28,7 @@
     ),
     url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-position:
-    top right,
-    center;
+  background-position: top right, center;
   background-size: cover;
 
   font-synthesis: none;
