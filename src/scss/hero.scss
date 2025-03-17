@@ -11,7 +11,7 @@
   align-items: center;
   gap: 40px;
 
-  margin: 20px auto 26px auto;
+  margin: 40px auto 0 auto;
   @include media(desktop) {
     flex-direction: row;
     align-items: start;
@@ -52,10 +52,7 @@
   @include font(40, 48);
   text-align: center;
   color: #fff;
-  text-shadow:
-    -1px -1px 0 #303030,
-    1px -1px 0 #303030,
-    -1px 1px 0 #303030,
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
     1px 1px 0 #303030;
   @include media(desktop) {
     @include font(96, 102);

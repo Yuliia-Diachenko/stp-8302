@@ -33,16 +33,14 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  margin: 10px;
+  margin-bottom: 20px;
   @include media(desktop) {
     width: 360px;
-    margin: 0;
   }
 }
 .image-advantages {
   width: 95px;
   position: absolute;
-  margin: 10px;
   z-index: -1;
   @include media(desktop) {
     width: 115px;
@@ -101,4 +99,5 @@
   color: #fff;
   text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
     1px 1px 0 #303030;
+  margin-bottom: 20px;
 }

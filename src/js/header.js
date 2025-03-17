@@ -12,6 +12,7 @@ navLinks.forEach(link => {
     mobileWrapper.classList.remove('open');
   });
 });
+
 // navigation  smoth
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -19,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.header');
 
   if (header) {
-    const headerHeight = header.offsetHeight + 30;
     anchors.forEach(anchor => {
       anchor.addEventListener('click', function (event) {
         event.preventDefault();
@@ -28,6 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
+          let headerHeight = header.offsetHeight + 20;
+
+          if (window.innerWidth >= 1200) {
+            headerHeight += 10;
+          }
+
           const offsetPosition = targetElement.offsetTop - headerHeight;
 
           window.scrollTo({
@@ -35,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
             behavior: 'smooth',
           });
 
-          // close menu after click
           if (mobileWrapper.classList.contains('open')) {
             mobileWrapper.classList.remove('open');
           }
