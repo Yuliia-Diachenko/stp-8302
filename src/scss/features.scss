@@ -47,7 +47,7 @@
   height: 112px;
   position: relative;
   text-align: center;
-
+  padding: 10px;
   @include media(desktop) {
     width: 469px;
     height: 127px;
