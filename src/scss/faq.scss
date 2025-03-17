@@ -20,6 +20,9 @@
 }
 .title-faq {
   font-size: 32px;
+  color: #fff;
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
+    1px 1px 0 #303030;
   @include media(desktop) {
     margin-bottom: 40px;
     font-size: 56px;

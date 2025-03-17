@@ -43,12 +43,14 @@
   }
 }
 .content-second {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
   @include media(desktop) {
-    display: flex;
     flex-direction: row;
-    margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
     width: 900px;
   }
@@ -79,4 +81,9 @@
 .text-advantages {
   padding-left: 40px;
   text-align: center;
+}
+.advantages-title {
+  color: #fff;
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
+    1px 1px 0 #303030;
 }

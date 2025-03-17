@@ -18,7 +18,9 @@
   font-weight: 600;
   @include font(32, 38);
   text-align: center;
-  color: #fffbfb;
+  color: #fff;
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
+    1px 1px 0 #303030;
   margin-bottom: 20px;
 
   @include media(desktop) {
