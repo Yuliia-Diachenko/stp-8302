@@ -7,6 +7,7 @@
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 60px;
+
   @include media(desktop) {
     margin-top: 120px;
     margin-bottom: 120px;
@@ -14,7 +15,7 @@
   }
 }
 .content-container {
-  width: 300px;
+  width: 280px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -27,7 +28,7 @@
   }
 }
 .content {
-  width: 300px;
+  width: 280px;
   height: auto;
   display: flex;
   gap: 20px;
