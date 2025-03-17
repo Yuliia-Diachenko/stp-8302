@@ -14,7 +14,7 @@
   margin: 40px auto 26px auto;
   @include media(desktop) {
     width: 1126px;
-    margin: 210px auto 158px auto;
+    margin: 120px auto 158px auto;
   }
 }
 .main-about {
@@ -46,7 +46,6 @@
   text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
     1px 1px 0 #303030;
   @include media(desktop) {
-
     margin: 90px 0 0 61px;
 
     font-size: 66px;
