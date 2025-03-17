@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.header');
 
   if (header) {
-    const headerHeight = header.offsetHeight + 20;
+    const headerHeight = header.offsetHeight + 30;
     anchors.forEach(anchor => {
       anchor.addEventListener('click', function (event) {
         event.preventDefault();
