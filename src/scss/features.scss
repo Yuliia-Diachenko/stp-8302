@@ -64,9 +64,9 @@
     left: 50%;
     z-index: 9999;
     transform: translateX(-50%);
-    background-image: url('../img/features/arrow.png');
+    background-image: url('./img/features/arrow.png');
     @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
-      background-image: url('../img/features/arrow@2x.png');
+      background-image: url('./img/features/arrow@2x.png');
     }
   }
 
@@ -74,10 +74,10 @@
     bottom: -60px;
     z-index: 9999;
     @include media(desktop) {
-      background-image: url('../img/features/arrow-d@.png');
+      background-image: url('./img/features/arrow-d@.png');
 
       @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
-        background-image: url('../img/features/arrow-d@2x.png');
+        background-image: url('./img/features/arrow-d@2x.png');
       }
       left: auto;
       right: -30px;
@@ -89,10 +89,10 @@
     bottom: -70px;
     transform: translateX(-50%) rotate(115deg);
     @include media(desktop) {
-      background-image: url('../img/features/arrow-d.png');
+      background-image: url('./img/features/arrow-d.png');
 
       @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
-        background-image: url('../img/features/arrow-d@2x.png');
+        background-image: url('./img/features/arrow-d@2x.png');
       }
 
       left: -80px;
