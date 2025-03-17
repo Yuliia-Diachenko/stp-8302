@@ -70,7 +70,7 @@
   &:nth-child(odd)::after {
     bottom: -60px;
     @include media(desktop) {
-      background-image: url('../img/features/arrow-d@.png');
+      background-image: url('../img/features/arrow-d.png');
 
       @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
         background-image: url('../img/features/arrow-d@2x.png');
