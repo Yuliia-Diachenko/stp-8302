@@ -6,3 +6,4 @@ import './js/privacy';
 import './js/cookies';
 import './js/pop-up';
 import './js/how-to-play';
+import './js/gallery';
