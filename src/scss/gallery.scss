@@ -20,7 +20,8 @@
     @include font(32, 38);
     text-align: center;
     color: #fff;
-
+    text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
+      1px 1px 0 #303030;
     @include media(desktop) {
       @include font(66, 72);
     }
