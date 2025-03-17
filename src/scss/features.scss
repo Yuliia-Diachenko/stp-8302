@@ -18,9 +18,7 @@
   font-weight: 600;
   @include font(32, 38);
   text-align: center;
-  color: #fff;
-  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
-    1px 1px 0 #303030;
+  color: #fffbfb;
   margin-bottom: 20px;
 
   @include media(desktop) {
@@ -47,7 +45,7 @@
   height: 112px;
   position: relative;
   text-align: center;
-  padding: 5px 10px;
+
   @include media(desktop) {
     width: 469px;
     height: 127px;
@@ -62,26 +60,24 @@
     background-repeat: no-repeat;
     position: absolute;
     left: 50%;
-    z-index: 9999;
     transform: translateX(-50%);
-    background-image: url('./img/features/arrow.png');
+    background-image: url('../img/features/arrow.png');
     @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
-      background-image: url('./img/features/arrow@2x.png');
+      background-image: url('../img/features/arrow@2x.png');
     }
   }
 
   &:nth-child(odd)::after {
     bottom: -60px;
-    z-index: 9999;
     @include media(desktop) {
-      background-image: url('./img/features/arrow-d@.png');
+      background-image: url('../img/features/arrow-d@.png');
 
       @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
-        background-image: url('./img/features/arrow-d@2x.png');
+        background-image: url('../img/features/arrow-d@2x.png');
       }
+
       left: auto;
-      right: -30px;
-      bottom: -90px;
+      right: -80px;
     }
   }
 
@@ -89,10 +85,10 @@
     bottom: -70px;
     transform: translateX(-50%) rotate(115deg);
     @include media(desktop) {
-      background-image: url('./img/features/arrow-d.png');
+      background-image: url('../img/features/arrow-d.png');
 
       @media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
-        background-image: url('./img/features/arrow-d@2x.png');
+        background-image: url('../img/features/arrow-d@2x.png');
       }
 
       left: -80px;
