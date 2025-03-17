@@ -2,44 +2,30 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 20px;
   margin: 0 auto;
+  gap: 20px;
   font-size: 16px;
-
   @include media(desktop) {
     max-width: 1200px;
-    padding-left: 60px;
     height: 100%;
     gap: 40px;
-    margin: 20px;
     font-size: 22px;
-  }
-  @include media(to-mobile) {
-    max-width: 1200px;
-    height: 100%;
-    gap: 40px;
-    margin: 60px 0;
   }
 }
 .privacy-container {
-  width: 100%;
-  padding: 20px;
+  width: 250px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   @include media(desktop) {
-    max-width: 1200px;
-    padding: 60px;
+    width: 1080px;
     height: 100%;
     gap: 40px;
-    margin: 20px;
-  }
-  @include media(to-mobile) {
-    max-width: 1080px;
-    height: 100%;
-    gap: 40px;
-    margin: 60px;
+    margin-top: 40px;
+    margin-bottom: 100px;
   }
 }
 .p-container {
@@ -52,4 +38,10 @@
   list-style-type: disc;
   padding-left: 40px;
   padding-top: 0;
+}
+.icon {
+  width: 34px;
+  @include media(desktop) {
+    width: 50px;
+  }
 }

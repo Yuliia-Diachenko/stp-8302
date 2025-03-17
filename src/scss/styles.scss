@@ -29,9 +29,7 @@
     ),
     url(../img/background.jpg);
   background-repeat: no-repeat;
-  background-position:
-    top right,
-    center;
+  background-position: top right, center;
   background-size: cover;
 
   font-synthesis: none;
@@ -49,10 +47,7 @@ h3 {
   line-height: $title-line-height-desktop;
   letter-spacing: 0%;
   color: #fff;
-  text-shadow:
-    -1px -1px 0 #303030,
-    1px -1px 0 #303030,
-    -1px 1px 0 #303030,
+  text-shadow: -1px -1px 0 #303030, 1px -1px 0 #303030, -1px 1px 0 #303030,
     1px 1px 0 #303030;
 
   @media (max-width: 1199px) {
