@@ -32,13 +32,11 @@
 }
 .about-text {
   text-align: left;
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: #fff;
   margin: 0 20px;
-
-  text-shadow: -0.5px -0.5px 0 #303030, 0.5px -0.5px 0 #303030,
-    -0.5px 0.5px 0 #303030, 0.5px 0.5px 0 #303030;
   @include media(desktop) {
     text-align: center;
     font-size: 22px;
