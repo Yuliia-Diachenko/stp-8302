@@ -101,12 +101,6 @@ a:focus {
   transition: background-color 0.3s ease;
 }
 
-.icon:hover,
-.icon:focus {
-  background-color: $_header_accent_color;
-  border-radius: 50%;
-  outline: none;
-}
 .footer {
   font-family: $font-footer;
   font-weight: 500;
