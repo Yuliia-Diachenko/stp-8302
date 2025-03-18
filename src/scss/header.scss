@@ -28,6 +28,16 @@
     margin-left: 70px;
   }
 }
+.logo-header {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-header:hover {
+  transform: scale(1.1); // Легке збільшення
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); // Додаємо легку тінь
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -73,6 +83,16 @@
   box-shadow: 0 4px 2px rgba(102, 25, 144, 0.7), 0 0 2px rgba(68, 53, 127, 1);
 }
 
+.nav-link a,
+.nav-link-m a {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-link a:hover,
+.nav-link-m a:hover {
+  transform: scale(1.1);
+}
 .hamburger-menu {
   display: none;
   margin-right: 24px;

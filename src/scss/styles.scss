@@ -4,7 +4,6 @@
 @import './pop-up.scss';
 @import './vite-promo.scss';
 @import './privacy-policy.scss';
-@import './terms&conditions.scss';
 @import './cookies.scss';
 @import './footer.scss';
 @import './about.scss';
@@ -113,4 +112,26 @@ a:focus {
     font-size: $footer-font-size-mobile;
     line-height: $footer-line-height-mobile;
   }
+}
+@keyframes zoomIn {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+h1,
+h2,
+h3 {
+  animation: zoomIn 0.5s ease-in-out;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+  animation: zoomIn 0.3s ease-in-out;
+  transform: scale(1.1);
 }
