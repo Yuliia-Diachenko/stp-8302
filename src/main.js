@@ -7,3 +7,4 @@ import './js/cookies';
 import './js/pop-up';
 import './js/how-to-play';
 import './js/gallery';
+import './js/features';
